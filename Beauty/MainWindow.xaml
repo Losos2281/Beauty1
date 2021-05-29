@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="50"/>
+            <ColumnDefinition Width="700"/>
+            <ColumnDefinition Width="50*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="350*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#FFE1E4FF"  Grid.ColumnSpan="3" ></Grid>
+        <Grid Background="#FFE1E4FF"  Grid.ColumnSpan="3" Grid.Row="2"></Grid>
+        <Grid Background="#FFE1E4FF"   Grid.RowSpan="3"></Grid>
+        <Grid Background="#FFE1E4FF"   Grid.RowSpan="3" Grid.Column="2"></Grid>
+        <Image Source="Resources\beauty_logo.png" Grid.ColumnSpan="2" HorizontalAlignment="Left"></Image>
         
+        
+        <Frame Grid.Row="1" Grid.Column="1" Name="MainFrame"></Frame>
     </Grid>
 </Window>

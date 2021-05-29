@@ -13,17 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Beauty
+namespace Beauty.pages
 {
     /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
+    /// Логика взаимодействия для Autorization.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Autorization : Page
     {
-        public MainWindow()
+        public Autorization()
         {
             InitializeComponent();
-            MainFrame.Navigate(new pages.Autorization());
+        }
+
+        private void enter_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

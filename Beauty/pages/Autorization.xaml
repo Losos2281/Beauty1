@@ -1,0 +1,18 @@
+﻿<Page x:Class="Beauty.pages.Autorization"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Beauty.pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Autorization">
+
+    <Grid>
+        <Label Content="Введите логин"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="356,116,356,308"></Label>
+        <TextBox x:Name="Login" VerticalAlignment="Center" Height="30" Margin="300,147,300,273"/>
+        <Label Content="Введите пароль"  HorizontalAlignment="Center" VerticalAlignment="Center" Margin="356,198,341,226" Width="103" ></Label>
+        <PasswordBox x:Name="Password" HorizontalAlignment="Center" VerticalAlignment="Center" Width="200" Height="30" Margin="300,229,300,191" ></PasswordBox>
+        <Button x:Name="enter" Content="Войти" Click="enter_Click" Margin="324,278,326,132"></Button>
+    </Grid>
+</Page>
